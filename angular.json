@@ -27,9 +27,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/ua-parser.js",
+              "src/assets/common.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -96,7 +100,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/ua-parser.js"
+            ]
           }
         }
       }
